@@ -1,0 +1,32 @@
+﻿@page "/videocourse"
+
+@using Blazored.Video
+
+@using Ice_KnowledgeLibrary.Pages
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<div class="tree_grid">
+
+    <Tree Items="@Items" OnTreeItemClick="@OnTreeItemClick" />
+
+</div>
+
+
+    <video id="my-video"
+           class="video-js"
+           controls
+           preload="auto"
+           width="640"
+           height="264"
+           data-setup="{}">
+        <source src="../TestFile/testVideo.mp4" type="video/mp4" />
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
