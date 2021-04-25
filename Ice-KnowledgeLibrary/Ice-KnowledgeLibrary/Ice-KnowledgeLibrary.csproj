@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Ice_KnowledgeLibrary</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BootstrapBlazor" Version="5.0.28-beta01" />
+    <PackageReference Include="BootstrapBlazor.Chart" Version="5.0.18" />
+    <PackageReference Include="BootstrapBlazor.DataAcces.FreeSql" Version="5.0.18" />
+    <PackageReference Include="BootstrapBlazor.Markdown" Version="5.0.18" />
+    <PackageReference Include="BootstrapBlazor.TableExport" Version="5.0.18" />
+    <PackageReference Include="FreeSql" Version="2.3.200" />
+    <PackageReference Include="FreeSql.Provider.MySql" Version="2.3.200" />
+    <PackageReference Include="FreeSql.Provider.Sqlite" Version="2.3.200" />
+    <PackageReference Include="Furion" Version="2.1.5" />
+    <PackageReference Include="log4net" Version="2.0.12" />
+    <PackageReference Include="Magicodes.IE.AspNetCore" Version="2.5.3.7" />
+    <PackageReference Include="Magicodes.IE.Core" Version="2.5.3.7" />
+    <PackageReference Include="Magicodes.IE.Excel" Version="2.5.3.7" />
+    <PackageReference Include="Shouldly" Version="4.0.3" />
+  </ItemGroup>
+
+</Project>
